@@ -1,24 +1,22 @@
 # SecureCover: Advanced Steganography Tool 🔒🖼️
 
-This project is part of my AICTE IBM Cyber Security Internship.
+This project is part of my **AICTE IBM Cyber Security Internship**.
 
 ---
 
 ## 🔍 Project Description
 
-**SecureCover** is an advanced steganography tool that allows embedding any file (text, PDF, image, etc.) inside image files using Least Significant Bit (LSB) technique. The project currently supports:
+**SecureCover** is an advanced steganography tool that allows embedding any file (text, PDF, image, etc.) inside image files using Least Significant Bit (LSB) technique.
 
-- Embedding secret text or any file into cover images (BMP, PNG).
-- Extracting embedded secret data from stego images.
-- Using a custom header to reliably identify message size and file extension during extraction.
+### Key Features:
+
+- Embed secret text or any file into cover images (BMP, PNG).
+- Extract embedded secret data from stego images.
+- Custom header to reliably identify message size and file extension during extraction.
 - Seamless handling of both text-based and binary files.
 
-The project is being actively developed and will soon include:
-
-- 🔐 AES encryption for added security.
-- 🎯 Steganalysis module to detect hidden data.
-- 🎵 Audio-based steganography support.
-- 🖥️ Graphical User Interface (GUI) for ease of use.
+> ⚠ **Disclaimer:**  
+> This project is for educational and learning purposes only. Not intended for illegal use.
 
 ---
 
@@ -51,27 +49,29 @@ git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME.git
 cd YOUR-REPO-NAME
 
 2️⃣ Install Dependencies
+
 pip install pillow
 
 🎯 Usage
-  Run the Tool:
-  python steganography_tool.py
 
-  Follow on-screen prompts:
+Run the tool:
 
-    Embed Mode:
+python steganography_tool.py
 
-        Enter path of cover image.
+Follow on-screen prompts:
+Embed Mode:
 
-        Enter secret text or select a file to hide.
+    Enter path of cover image.
 
-        Enter output file name for stego image.
+    Enter secret text or select a file to hide.
 
-    Extract Mode:
+    Enter output file name for stego image.
 
-        Enter path of stego image.
+Extract Mode:
 
-        Extracted data will be printed (for text) or saved (for files).
+    Enter path of stego image.
+
+    Extracted data will be printed (for text) or saved (for files).
 
 🖼️ Example Flow
 
@@ -80,7 +80,6 @@ pip install pillow
 
 3️⃣ Later run → Choose extract
 4️⃣ Provide stego image → Extracted secret file or message appears.
-
 📈 Project Status
 
     ✅ Core embedding & extraction fully functional.
@@ -105,7 +104,7 @@ pip install pillow
 
     Applied cybersecurity concepts practically.
 
+👨‍💻 Author
 
-⚠️ Disclaimer
-
-This project is for educational and learning purposes only. Not intended for illegal use.
+Lakshya Garg
+(Part of AICTE IBM Cyber Security Internship Project)
