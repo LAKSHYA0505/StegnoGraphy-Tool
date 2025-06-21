@@ -40,23 +40,27 @@ This project is part of my **AICTE IBM Cyber Security Internship**.
 
 ---
 
-## 📦 Installation Instructions
+### Installation
 
-### 1️⃣ Clone the Repository
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+    cd YOUR_REPOSITORY_NAME
+    ```
+    *(Replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub details)*
+
+2.  **Install dependencies:**
+    ```bash
+    pip install Pillow
+    ```
+
+## 🎮 Usage
+
+
+Run the main script from your terminal:
 
 ```bash
-git clone https://github.com/YOUR-GITHUB-USERNAME/YOUR-REPO-NAME.git
-cd YOUR-REPO-NAME
-
-2️⃣ Install Dependencies
-
-pip install pillow
-
-🎯 Usage
-
-Run the tool:
-
-python steganography_tool.py
+python stegnography_tool.py
 
 Follow on-screen prompts:
 Embed Mode:
@@ -73,38 +77,5 @@ Extract Mode:
 
     Extracted data will be printed (for text) or saved (for files).
 
-🖼️ Example Flow
+---
 
-1️⃣ Start program → Choose embed
-2️⃣ Provide image → Provide secret data (text or file) → Get stego image saved.
-
-3️⃣ Later run → Choose extract
-4️⃣ Provide stego image → Extracted secret file or message appears.
-📈 Project Status
-
-    ✅ Core embedding & extraction fully functional.
-
-    🔜 AES encryption module (coming soon).
-
-    🔜 Steganalysis (coming soon).
-
-    🔜 Audio file support (coming soon).
-
-    🔜 GUI interface (coming soon).
-
-📚 Learning Outcome
-
-    Learned advanced steganography algorithms.
-
-    Worked with binary data encoding.
-
-    File I/O handling.
-
-    Built robust error-handling logic.
-
-    Applied cybersecurity concepts practically.
-
-👨‍💻 Author
-
-Lakshya Garg
-(Part of AICTE IBM Cyber Security Internship Project)
