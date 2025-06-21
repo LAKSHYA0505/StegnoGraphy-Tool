@@ -40,22 +40,55 @@ This project is part of my **AICTE IBM Cyber Security Internship**.
 
 ---
 
-### Installation
+## 🖼️ Example Flow
 
-1.  **Clone the repository:**
+1️⃣ **Embed Mode:**
+   - Start program → Choose embed
+   - Provide cover image → Provide secret data (text or file) → Get stego image saved
+
+2️⃣ **Extract Mode:**
+   - Run program → Choose extract
+   - Provide stego image → Extracted secret file or message appears
+
+---
+
+## 📈 Project Status
+
+- ✅ Core embedding & extraction fully functional
+- 🔜 AES encryption module (coming soon)
+- 🔜 Steganalysis (coming soon)
+- 🔜 Audio file support (coming soon)
+- 🔜 GUI interface (coming soon)
+
+---
+
+## 📚 Learning Outcome
+
+- Learned advanced steganography algorithms
+- Worked with binary data encoding
+- File I/O handling
+- Built robust error-handling logic
+- Applied cybersecurity concepts practically
+
+---
+
+## 🔧 Installation
+
+1. **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+    git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
     cd YOUR_REPOSITORY_NAME
     ```
     *(Replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub details)*
 
-2.  **Install dependencies:**
+2. **Install dependencies:**
     ```bash
     pip install Pillow
     ```
 
-## 🎮 Usage
+---
 
+## 🎮 Usage
 
 Run the main script from your terminal:
 
@@ -63,19 +96,22 @@ Run the main script from your terminal:
 python stegnography_tool.py
 
 Follow on-screen prompts:
+
 Embed Mode:
 
-    Enter path of cover image.
+    Enter path of cover image
 
-    Enter secret text or select a file to hide.
+    Enter secret text or select a file to hide
 
-    Enter output file name for stego image.
+    Enter output file name for stego image
 
 Extract Mode:
 
-    Enter path of stego image.
+    Enter path of stego image
 
-    Extracted data will be printed (for text) or saved (for files).
+    Extracted data will be printed (for text) or saved (for files)
 
----
+👨‍💻 Author
 
+Lakshya Garg
+(Part of AICTE IBM Cyber Security Internship Project)
